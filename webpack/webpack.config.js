@@ -15,12 +15,12 @@ var options = {
   devtool: '#cheap-module-source-map',
   resolve: {
     modulesDirectories: ['node_modules'],
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       },

@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/styles.css'|url }}">
 <link href="/static/favicon.png" rel="shortcut icon" type="image/png">
+<script src="/static/app.js"></script>
 <title>{% block title %}Servus{% endblock %} — Das Gfraster</title>
 {%- block head %}{% endblock %}
 <body>
@@ -43,7 +44,11 @@
   </div>
   <footer>
     <div class="container">
-      &copy; Copyright 2016 by Das Gfraster. <a href="/imprint">Impressum</a>
+      &copy; Copyright 2016 by Das Gfraster &middot; <a href="/imprint">Impressum</a>
+      {% if this._path %}
+      &middot;
+      <a href="https://github.com/mitsuhiko/das-gfraster/commits/master/content{{ this._path }}/contents.lr">Änderungsgeschichte</a>
+      {% endif %}
     </div>
   </footer>
 </body>
