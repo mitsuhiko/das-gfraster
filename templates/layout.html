@@ -23,8 +23,7 @@
             {% for target, title in [
               ['/articles', 'Gschreibsl'],
               ['/authors', 'Federführer'],
-              ['/about', 'Über das Gfraster'],
-              ['/imprint', 'Impressum']
+              ['/about', 'Über das Gfraster']
             ] %}
             <li{% if this.is_child_of(target) %} class="active"{% endif
               %}><a href="{{ target|url }}"><span>{{ title }}</span></a></li>
