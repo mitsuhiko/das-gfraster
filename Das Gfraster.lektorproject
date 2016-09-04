@@ -2,6 +2,7 @@
 name = Das Gfraster
 url_style = absolute
 locale = de_AT
+url = https://das-gfraster.at/
 
 [servers.production]
 enabled = yes
@@ -11,3 +12,4 @@ default = yes
 
 [packages]
 lektor-webpack-support = 0.1
+lektor-atom = 0.2
