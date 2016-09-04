@@ -25,7 +25,8 @@
             {% for target, title in [
               ['/articles', 'Gschreibsl'],
               ['/authors', 'Federführer'],
-              ['/about', 'Über das Gfraster']
+              ['/about', 'Über das Gfraster'],
+              ['/en', 'English']
             ] %}
             <li{% if this.is_child_of(target) %} class="active"{% endif
               %}><a href="{{ target|url }}"><span>{{ title }}</span></a></li>
