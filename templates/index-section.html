@@ -1,0 +1,12 @@
+{% extends "section.html" %}
+{% from "macros/article.html" import render_article_box %}
+{% block section_body %}
+  <hr>
+  <h3>Das Zuletzt Geschriebene:</h3>
+  <ul class="article-list">
+  {% for child in site.query('/articles').limit(4) %}
+    <li class="col-md-6">{{ render_article_box(child) }}
+  {% endfor %}
+  </ul>
+  <p><a href="/articles">Den Rest findet man hier …</a>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.name }}{% endblock %}
+{% block body %}
+  <h1>{{ this.name }}</h1>
+  <div class="col-md-8">
+    {{ this.description }}
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <dl>
+        {% if this.twitter %}
+        <dt>Twitter
+        <dd><a href="https://twitter.com/{{ this.twitter }}">@{{ this.twitter }}</a>
+        {% endif %}
+        {% if this.website %}
+        <dt>Webseite
+        <dd><a href="{{ this.website }}">{{ this.website.host }}</a>
+        {% endif %}
+        {% if this.email %}
+        <dt>E-Mail
+        <dd><a href="mailto:{{ this.email }}">{{ this.email }}</a>
+        {% endif %}
+        <dt>Spitzname
+        <dd>{{ this._id }}
+      </dl>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from "macros/article.html" import render_article_box %}
+{% block title %}Gschreibsl{% endblock %}
+{% block body %}
+  <h1>Gschreibsl</h1>
+  <p>Das wurde hier bis jetzt zu Papier gebracht:
+  <ul class="article-list">
+  {% for child in this.children %}
+    <li>{{ render_article_box(child, style='wide') }}
+  {% endfor %}
+  </ul>
+{% endblock %}

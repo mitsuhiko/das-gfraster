@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}Federführer{% endblock %}
+{% block body %}
+  <h1>Die Federführer</h1>
+  <p>Das sind die Gfraster die hier schreiben:
+  <ul>
+  {% for child in this.children %}
+    <li><a href="{{ child|url }}">{{ child.name }}</a>
+  {% endfor %}
+  </ul>
+{% endblock %}

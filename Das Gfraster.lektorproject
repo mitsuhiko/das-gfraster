@@ -1,0 +1,13 @@
+[project]
+name = Das Gfraster
+url_style = absolute
+locale = de_AT
+
+[servers.production]
+enabled = yes
+name = Production
+target = rsync://deploy@flow.srv.pocoo.org/srv/websites/das-gfraster.at/static
+default = yes
+
+[packages]
+lektor-webpack-support = 0.1

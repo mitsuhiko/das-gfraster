@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% from "macros/author.html" import render_author %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block non_container_body %}
+  <div class="article">
+    <div class="header header-{{ this.header_class or 'light' }}{% if this.header_image %} image-header{% endif %}"{% if this.header_image %} style="background-image: url({{ this.header_image|url }})"{% endif %}>
+      <div class="container">
+        <h1>{{ this.title }}</h1>
+        <p class=meta>
+          {{ render_author(this.author) }}, am {{ this.pub_date|dateformat('full') }}
+      </div>
+    </div>
+    <div class="container">
+      {{ this.body }}
+    </div>
+  </div>
+{% endblock %}

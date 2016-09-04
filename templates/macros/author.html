@@ -1,0 +1,4 @@
+{% macro render_author(nickname) -%}
+  {% set author = site.get('/authors/' ~ nickname) -%}
+  <span class="author"><a href="{{ author|url }}">{{ author.name }}</a></span>
+{%- endmacro %}

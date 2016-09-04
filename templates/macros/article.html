@@ -1,0 +1,11 @@
+{% from "macros/author.html" import render_author %}
+{% macro render_article_box(article, style='short') %}
+  {% set img = article.attachments.get(article.header_image) if article.header_image %}
+  <div class="article-box article-box-{{ style }} article-box-{{ article.header_class }}{% if article.header_image %} header-image{% endif %}"{% if img %} style="background-image: url({{ img.thumbnail(800)|url }})"{% endif %}>
+    <div class="shadow">
+      <p class=title><a href="{{ article|url }}">{{ article.title }}</a>
+      <div class="summary">{{ article.summary }}</div>
+      <p class=meta>von {{ render_author(article.author) }} am {{ article.pub_date|dateformat('full') }}
+    </div>
+  </div>
+{% endmacro %}
