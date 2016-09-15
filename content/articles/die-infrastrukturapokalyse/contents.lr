@@ -1,0 +1,113 @@
+title: Die Infrastrukturapokalyse
+---
+author: mitsuhiko
+---
+body:
+
+Wohin man auch schaut, der Infrastruktur hier gehts nicht so gut. In meinem Heimattal wird zum Beispiel gerade [eine Bahn aufgelassen](http://www.kleinezeitung.at/kaernten/oberkaernten/peak_oberkaernten/4906014/Gailtal_Das-planen-die-OBB-mit-der-Gailtalbahn). Das mit dem Internet entwickelt sich in Österreich auch nicht so wie es toll und unseren Straßen ging es auch schon mal besser. Aber zur Infrastruktur gehört ja nicht nur Bahn, Internet und Straßen, sondern auch die Medizinische Versorgung und [da Bröckelt es auch](http://derstandard.at/2000044098103/Wiener-Aerztestreik-fuer-Pflegepersonal-nicht-nachvollziehbar).
+
+Es gibt wirklich viel das in Österreich kaputt ist, aber wer glaubt das dies ein lokales Problem ist hat einfach noch nicht über die Grenze geschaut. Gerade die medizinische Versorgung ist ein gewaltiges Problem in jedem entwickeltem Land. Aus meiner Zeit in England ist mir die NHS (deren Gesundheitssystem) noch sehr gut in Erinnerung. Ein mittlerweile chronisch unterfinanziertes System das zu großen Teilen auch schon sehr nach mit Tixo geklebt aus.
+
+Deswegen zur Abwechslung mal kein Gesudere sondern ein langweiliger Vergleich und Statusreport.
+
+## Die Bahn
+
+Es gibt wohl kein Land in der Welt das es schafft mit dem Passagierverkehr auf der Schiene Geld zu machen. In Österreich hat man das zumindest erkannt und hier wird der öffentliche Verkehr zu großen Teilen vom Steuerzahler automatisch finanziert. Das Ergebnis ist gar nicht mal so schlecht. Wir haben zwar keine Bahncard 100 und kein Generalabonnement aber mit der Österreichcard sind wir zumindest knapp dran. Bahnfahren in Österreich ist im europäischen Vergleich billig und die Züge geben auch was her. Das größte Problem hier ist gar nicht mal so sehr die Bahn, sondern die verdammten Alpen und anderen Berge. Da muss man erst mal drüber und [drunter dauert leider](https://de.wikipedia.org/wiki/Koralmtunnel).
+
+2015 hat die Boston Consulting Group den Zugverkehr in Europa so bewertet:
+
+<div class="figure">
+  <img src="trains.png" alt="">
+  <p>Quelle: <a href="https://www.bcgperspectives.com/content/articles/transportation_travel_tourism_public_sector_european_railway_performance_index/">Boston Consulting Group</a></p>
+</div>
+
+Österreichs größtes Problem nach der Statistik ist etwas das hier gar nicht oft beleuchtet wird: die Sicherheit. Ich denke der Österreicher nimmt die Bahn nicht als unsicher wahr, allerdings ist sie das. Die Bahn in meinem Heimattal die teilweise aufgelassen wird? Die wird wohl positiv dazu beitragen auf unsere Sicherheitsstatistik auswirken. Ein Grund? Wir haben [viele ungesicherte Bahnübergänge](http://www.kleinezeitung.at/oesterreich/4738106/Zugsungluck_Mehr-als-die-Haelfte-der-Bahnubergaenge-unbeschrankt). Der Grund dafür? Im ländlichen Raum mit wenig Zugverkehr ist es einfach zu teuer dies anders zu lösen. In bisschen mehr findet man [in einer EU Statistik aus 2013](http://www.era.europa.eu/Document-Register/Documents/SPR%202013%20Final%20for%20web.pdf).
+
+Es ist in gewisser Weise traurig das man hier sehr einfach sehen kann das ein Menschenleben doch in einer ökonomischen Rechnung auftauchen kann. Auch wenn man es so nicht ausspricht. Das mit der Sicherheit ist wohl auf der EU etwas aufgestoßen und hat uns vor ein paar Jahren [deswegen verklagt](http://derstandard.at/1395363520990/Eisenbahnsicherheit-Oesterreich-fasst-EU-Klage-aus).
+
+Andere Dinge hingegen funktionieren wunderbar. Wir sind zwar nicht die Schweiz, aber Österreicher nutzen die Bahn. Der durchschnittlicher Österreicher fährt im Jahr 1426km mit der Bahn. Weit abgeschlagen von der Schweiz mit 2429km, aber dennoch EU Meister.
+
+<div class="figure">
+  <img src="train-distance.png" alt="">
+  <p>Quelle: <a href="http://www.irg-rail.eu/public-documents/2016/">IRG-Rail - Fourth Annual Market Monitoring Report</a></p>
+</div>
+
+Ansonsten tut sich so einiges bei der OeBB. [Das Unternehmen ist gesund](https://www.youtube.com/watch?v=r-s9QXulY6c), [neue Züge gibt es auch wieder](https://www.youtube.com/watch?v=ekmhJQeJcg0) und man [verbessert gerade das Internet am Zug](https://www.youtube.com/watch?v=4CBtXYqTRU4). Gerade wenn ich mit meinen amerikanischen Freunden spreche höre ich doch immer wieder ein wenig Faszination und Erstaunen heraus wenn man davon spricht, dass man nicht nur eine funktionierende Bahn sondern generellen öffentlichen Verkehr hat.
+
+Und soviel wir auch raunzen: anscheinend raunzen die anderen mehr:
+
+<div class="figure">
+  <img src="rail-satisfaction.png" alt="">
+  <p>Quelle: <a href="http://ec.europa.eu/transport/facts-fundings/scoreboard/compare/people/rail-transport-consumer-satisfaction/2013/index_en.htm">European Commission: Consumer Satisfaction with Rail Transport</a></p>
+</div>
+
+**Persönliches Fazit:** anstatt sich über Preise und unbequeme Sitze zu beschweren, werde ich mich wohl demnächst mehr Wert auf Diskussionen in Punkto Sicherheit legen. Weil da haben wir sicher mehr Bedarf.
+
+## Das Internet
+
+Wir schreiben das Jahr 2016 und mit dem Internet haut's immer noch nicht hin. Manchmal schaut der Österreicher ganz traurig in den Osten und liest und hört wie man in Rumänien symmetrisches Gigabit Internet zu Hause aus dem Fiberglaskabel für wenige Euro pro Monat bekommt. Wenn die Rumäner das schaffen, warum schafft das der Österreicher nicht?
+
+Um da mal ein paar Zahlen von Akamai aus 2016 zu nennen: der durchschnittliche Österreicher ladet mit etwa 13.4Mbps Dinge aus dem Internet. In Rumänien schafft man 16.1Mbps. In Schweden und Norwegen kommt man auf über 20Mbps. Global betrachtet hängen wir auf Platz 29. Schlimmer wird es, wenn man sich die Maximalgeschwindigkeiten ansieht. In Rumänien kann ein beachtlicher Teil der Bevölkerung mit mehr als 80Mbps Daten herunterladen. Österreich schafft es da gerade mal auf 50Mbps (damit sind wir auf dem 45. Platz weltweit).
+
+Woran liegt das? Das im Detail herauszufinden wird nicht einfach werden, aber ein paar weitere Zahlen erklären die Situation ein wenig. Rumänien zB hat weniger als 55% der Bevölkerung mit Internet versorgt während es Österreich auf 85% schafft. In diese Zahl wird von zwei Faktoren beeinflusst: wie viele Leute eine technische Möglichkeit haben einen Internetzugang zu bekommen und wie viele Leute es auch wollen. Man könnte annehmen, dass je mehr Leute an das Internet angeschlossen sind, desto schwerer wird es sein allen hohe Geschwindigkeiten anzubieten. Schweden hat es jedoch geschafft 95% der Bevölkerung mit Internet zu versorgen und kommt auf sehr hohe Geschwindigkeiten sowohl im Durchschnitt als auch beim Höchstdurchsatz.
+
+Egal wie man die Daten betrachtet, Österreich geht es hier nicht gut was Geschwindigkeit angeht. Immerhin bekommen 94% der Kunden mehr als 4Mbps zusammen, allerdings fällt die Zahl auf 42% wenn man mehr als 10MBps haben will und auf unter 22% wenn man denn mindestens 15Mbps erreichen will. Das ist weit abgeschlagen von zB Norwegen wo 50% der Internetnutzer 15Mbps genießen können.
+
+Viel hängt einfach mit den Investitionskosten zusammen. Österreich hat jetzt zumindest die Breitbandmilliarde die etwas Geld auf das Problem wirft, allerdings wird schnell klar das wo anders das Internet einfach mehr wert ist. Litauen's Regierung hat ebenfalls beschlossen eine Milliarde in den Glasfaserausbau zu investieren. Das ist drei mal so viel pro Kopf im Vergleich zu Österreich. Schweden hat es sich sowieso als Ziel gesetzt jedem Bürger bis 2020 mindestens 100/100 bereitstellen zu können. Bereits 2009 hatten mehr als 80% des Landes eine Breitbandversorgung.
+
+Österreich hat hier eindeutig aufzuholen. Allerdings muss man sich ansehen woran das im Detail liegt. Zunächst war für lange Zeit kein Druck von Bevölkerung und Regierung am Status-Quo was zu ändern. Dies in Kombination mit der Tatsache, dass Infrastruktur und Internetdienstleister aus einer Hand und einem Monopol kam war auch von selbst keine Änderung zu erwarten. Letztlich ist die geographische Ausgangslage für Österreich denkbar ungünstig und die Auflagen hoch. Im Gegensatz zu Rumänien oder Russland kann man bei uns nicht einfach ein paar Kabel von Haus zu Haus oder Masten zu Masten spannen. Hier muss man Genehmigungen einholen und in der Regel die Leitungen unterirdisch ausführen.
+
+Also wo ist der Lichtblick? Der Lichtblick sind unsere Mobilfunker. Während die Sache beim Internet aus dem Kabel sehr traurig ist, hat die A1 mittlerweile Konkurrenz von den Mobilfunkern bekommen. Der Grund dahinter liegt daran, dass dank LTE man schnelles Internet jetzt auch  aus dem Mobilfunknetz bekommen kann. Wer sich wie ich immer wieder mal am österreichischen Land aufhält wird schnell auf T-Mobile und Drei Werbung stoßen die Breitbank für das Land verspricht. Und das stimmt auch. Sowohl T-Mobile als auch Drei bieten eine ernsthafte Flatrate für LTE Internet an und da kann man auch in der Regel mehr als 50/25 erwarten. Mehr noch: der Druck der beiden auf A1 ist groß genug geworden das jetzt auch A1 eine LTE Flatrate anbietet und zusätzlich VDSL2 Vectoring mit einem GRE Tunnel Bonding mit einem LTE Modem verheiratet. Jetzt bekommt man am Land Standardmäßig sowohl ein LTE als auch ein VDSL2 Modem und die beiden bauen einen Tunnel zu einem naheliegenden Datenzentrum auf und die Technologien werden so für bessere Performance gebündelt.
+
+Die Situation hat sich in den letzten dreiJahren stark verbessert und ich denke wir können davon ausgehen, dass jetzt zumindest dank Netflix, Steam und anderen Platformen ein Druck dahinter ist.
+
+**Persönliches Fazit:** langsam tut sich was. Vor allem dank dem Mobilfunk.
+
+## Der Mobilfunk
+
+So traurig die Situation mit unserem kabelgebundenem Internet ist, so rosig ist unsere Mobilfunksituation. Obwohl wir nur drei Netze (A1, T-Mobile und Drei) haben, haben wir einen gut funktionierenden kompetitiven Markt. Wir sind eines der wenigen Länder in der EU wo es wirkliche Daten Flatrates gibt. In Österreich hat sich über die letzten Jahre ein interessantes Tarifmodell aufgebaut, das es so im Ausland nicht gibt. Unsere SIM Karten sind ganz klar in drei Kategorien geteilt: Voice, Data und Home Data.
+
+Ersteres ist eine SIM Karte mit der man Telefonieren, SMSen, surfen und roamen kann, allerdings mit starken Volumenslimits. Bei Drei kommt man bei Voice Tarifen nicht über 40GB hinaus und bei A1 hört es überhaupt bei 30GB auf. Bei T-Mobile ist nicht mehr als 9GB im Monat drin, allerdings kann man relativ kostengünstig 10GB Daten nachladen.
+
+Home Data ist in der Regel unlimitiert, erlaubt aber kein Roaming und wird benachteiligt gegenüber anderen Netzwerkteilnehmern gesehen. Normale Data Tarife liegen in der Mitte: die können im Ausland roamen aber haben Volumenlimits.
+
+Diese Aufteilung ist insofern interessant als das sie so in Europa einmalig ist. In Deutschland kann man durchaus LTE zu Hause verwenden, ist aber auf wenige Gigabyte im Monat limitiert. In Großbritannien gibt es zumindest von Three einen unlimitierten Tarif, der ist allerdings fair-use und darf nur eingeschränkt mit nicht Mobilgeräten verwendet werden (limitiertes Tethering). Das Ergebnis des Ganzen: die typische österreichische SIM verbraucht mehr als das 6 fache einer deutschen Sim Karte bei einem Bruchteil der Kosten für den Nutzer.
+
+**Persönliches Fazit:** LTE hat hier nicht nur für den traditionellen Mobilfunkmarkt etwas gebraucht sondern auch plötzlich den Breitbandausbau vorangetrieben.
+
+## Straßen
+
+Wer im Zuge der Antrittsrede von Herrn Bundeskanzler Christian Kern mal im Internet ein wenig über die neuen Regierungsmitglieder umgeschaut hat, hat möglicherweise [diese Rede von Herrn Leichtfried gehört](https://youtu.be/7n3arOX3l10?t=227) wo auch über die fallende Qualität der Straßen hingewiesen wurde. Sicherlich fehlt es uns an Geld in der Straßeninfrastruktur so wie es überall fehlt. Doch wenn man sich das mal im EU Vergleich ansieht sind wir was die Qualität der Straßen angeht immer noch im Spitzenfeld:
+
+<div class="figure">
+  <img src="roads.png" alt="">
+  <p>Quelle: <a href="http://ec.europa.eu/transport/facts-fundings/scoreboard/compare/investments-infrastructure/quality-roads/2013_2014/index_en.htm">European Commission: Quality of Roads</a></p>
+</div>
+
+**Persönliches Fazit:** den Straßen gehts gut und das sollte man erhalten.
+
+## Die Medizinische Versorgung
+
+Wie die westliche Welt mit der medizinischen Versorgung umgehen soll weiß sie glaube ich nicht. Egal wohin man schaut, fehlt das Geld. Ein österreichisches, selbstgemachtes Problem sind die [angekündigten Streiks](http://gemeindespitaelerstreik2016.at/) der Gemeindespitäler in Wien. Da geht es nämlich gar nicht mal in erster Linie um ein Finanzierungsproblem sondern um die Art wie der Geldgeber gerne die Arbeitszeiten verwaltet hätte. Dahinter liegt natürlich auch eine erhoffte Kostenreduktion auf Kosten der Ärzte und Patienten.
+
+In Österreich ist das Gesundheitssystem sehr dezentral organisiert. Ob das sinnvoll ist kann ich nicht beurteilen, allerdings ergibt sich daraus die interessante Situation das wir sehr involvierte Parteien haben. Das macht den Vergleich des Gesundheitssystems mit anderen Ländern kompliziert. In Großbritannien gibt es das NHS. Eigentlich gibt es auch vier Stück davon aber wir können uns mal auf das von England beschränken. Steigende Kosten im Gesundheitsbereich gekoppelt mit der Wirtschaftskrise und daraus resultierenden Sparmassnahmen haben dazu geführt, das auch dort die Wartezeiten stark ansteigen und mittlerweile bestimmte Personengruppen einfach keine nicht lebensrettenden Operationen bekommen.
+
+Wenn man über den großen Teich schaut sieht man ein anderes Gesundheitssystem. In Amerika ist das Gesundheitssystem ein sehr komplexes. Eine Unzahl an Versicherungen existiert wobei hier bis auf das staatliche Medicare/Medicaid in der Regel freie Wahl besteht. Medicare deckt Leute über 65 ab und Medicaid Personen die zu wenig Einkommen haben sich eine andere Versicherung leisten zu können.
+
+Das interessante an der Sache ist, dass mehr oder weniger die Kosten der Gesundheitsversorgung auf die privaten Versicherungen verlagert werden. Das heisst im Gegensatz zu europäischen Staaten gibt es weniger Druck um die Kosten im Zaum zu halten. Das sieht man auch sehr schön wenn man sich die Gesamtausgaben als Prozentsatz des Bruttoinlandsproduktes ansieht:
+
+<div class="figure">
+  <img src="healthspending.png" alt="">
+  <p>Quelle: <a href="http://www.kingsfund.org.uk/projects/nhs-in-a-nutshell/health-care-spending-compared">The King's Fund: Health care spending compared to other countries
+</a></p>
+</div>
+
+Eigentlich aus vielerlei Sicht faszinierend gerade wenn man bedenkt, dass viele Unternehmen international aktiv sind. Ein Pfizer verkauft ein und das selbe Medikament zu verschiedenen Preisen in verschiedenen Ländern.
+---
+pub_date: 2016-09-10
+---
+summary: Wir schreiben das Jahr 2016 und der Infrastruktur gehts nicht mehr so gut.
+---
+header_class: light
+---
+header_image: header.jpg
