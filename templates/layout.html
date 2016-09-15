@@ -5,7 +5,7 @@
 <script src="/static/app.js"></script>
 <title>{% block title %}Servus{% endblock %} — Das Gfraster</title>
 {%- block head %}{% endblock %}
-<body>
+<body class="{% block bodyclass %}{% endblock %}">
   <header>
     <div class="navbar">
       <div class="container">

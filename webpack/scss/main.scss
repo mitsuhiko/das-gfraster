@@ -103,6 +103,10 @@ header {
   }
 }
 
+body.body-light header {
+  background: #444;
+}
+
 div.page {
   background: white;
   padding: 20px 0 50px 0;
@@ -162,6 +166,12 @@ div.article-box {
     font-style: italic;
   }
 
+  &.article-box-light {
+    text-shadow: 0px 0px 2px white;
+    div.shadow { background: rgba(255, 255, 255, 0.5); }
+    * { color: #111; }
+  }
+
   &.article-box-dark {
     background: #aaa;
     text-shadow: 0px 0px 2px black;
@@ -179,12 +189,34 @@ div.article {
     background-size: cover;
     background-position: center center;
 
+    &.header-light {
+      text-shadow: 1px 1px 10px white;
+    }
+
     &.header-dark {
       background: #333;
       color: white;
       text-shadow: 1px 1px 3px black;
       a { color: white; }
     }
+  }
+}
+
+div.figure {
+  margin: 25px 0;
+  padding: 15px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    margin: 15px 0 0 0;
+    font-size: 0.9em;
+    text-align: right;
   }
 }
 

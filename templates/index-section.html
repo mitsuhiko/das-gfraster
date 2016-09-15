@@ -4,7 +4,7 @@
   <hr>
   <h3>Das Zuletzt Geschriebene:</h3>
   <ul class="article-list">
-  {% for child in site.query('/articles').limit(4) %}
+  {% for child in site.query('/articles').limit(2) %}
     <li class="col-md-6">{{ render_article_box(child) }}
   {% endfor %}
   </ul>
