@@ -11,5 +11,5 @@ target = rsync://deploy@flow.srv.pocoo.org/srv/websites/das-gfraster.at/static
 default = yes
 
 [packages]
-lektor-webpack-support = 0.1
+lektor-webpack-support = 0.2
 lektor-atom = 0.2
